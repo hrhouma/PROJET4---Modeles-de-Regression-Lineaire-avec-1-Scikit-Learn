@@ -3,28 +3,27 @@ Analysez la source de données dans le fichier 'kc-house-data.csv'. Cette source
 
 Liste pour les propriétés immobilières :
 
-1. ID : Un identifiant unique pour la propriété.
-2. Date : La date de mise en liste ou de la transaction.
-3. Prix : Le prix de vente ou le prix de liste de la propriété.
-4. Chambres : Le nombre de chambres à coucher dans la propriété.
-5. Salles de bains : Le nombre de salles de bains.
-6. Pieds carrés habitables : La superficie habitable en pieds carrés.
-7. Pieds carrés de terrain : La superficie totale du terrain en pieds carrés.
-8. Étages : Le nombre d'étages du bâtiment.
-9. Bord de l'eau : Si la propriété est située près d'un plan d'eau.
-10. Vue : Description des vues offertes par la propriété.
-11. État : L'état général de la propriété.
-12. Grade : Une évaluation de la qualité et de la finition de la propriété.
-13. Pieds carrés au-dessus : La superficie des étages supérieurs en pieds carrés.
-14. Pieds carrés de sous-sol : La superficie du sous-sol en pieds carrés.
-15. Année de construction : L'année de construction de la propriété.
-16. Année de rénovation : L'année où la propriété a été rénovée, si applicable.
-17. Code postal : Le code postal de la localisation de la propriété.
-18. Latitude : La latitude géographique de la propriété.
-19. Longitude : La longitude géographique de la propriété.
-20. Pieds carrés habitables15 : Peut-être une référence à la superficie habitable dans un certain contexte ou période, comme les 15 dernières années.
-21. Pieds carrés de terrain15 : Similaire à ci-dessus, peut-être une référence à la superficie du terrain dans un certain contexte ou période.
-
+1. **ID :** Identifiant numérique unique pour chaque maison vendue.
+2. **Date :** La date de vente de la maison.
+3. **Prix :** Le prix de vente de la maison, qui est la variable cible dans ce modèle prédictif.
+4. **Chambres :** Le nombre de chambres dans la maison.
+5. **Salles de bain :** Le nombre de salles de bain dans la maison.
+6. **Sqft_Living :** Surface habitable de la maison en pieds carrés.
+7. **Sqft_Lot :** Surface du terrain sur lequel est située la maison en pieds carrés.
+8. **Étages :** Le nombre de niveaux ou d'étages dans la maison.
+9. **Front de mer :** Indique si la maison a une vue sur le front de mer (0 = Non, 1 = Oui).
+10. **Vue :** Indique si la maison a été visitée (0 = Non, 1 = Oui).
+11. **État :** L'état général de la maison, noté sur une échelle de 1 à 5.
+12. **Grade :** La note globale attribuée à la maison, basée sur le système de notation du comté de King, sur une échelle de 1 à 11.
+13. **Sqft_Above :** Surface habitable de la maison excluant le sous-sol.
+14. **Sqft_Basement :** Surface du sous-sol.
+15. **Yr_Built :** L'année de construction de la maison.
+16. **Yr_Renovated :** L'année de la dernière rénovation de la maison.
+17. **Code postal :** Le code postal où se trouve la maison.
+18. **Lat :** La latitude de l'emplacement de la maison.
+19. **Long :** La longitude de l'emplacement de la maison.
+20. **Sqft_Living15 :** La surface habitable en 2015, ce qui implique certaines rénovations.
+21. **Sqft_Lot15 :** La surface du terrain en 2015, impliquant également des rénovations.
 
 Lisez le fichier source de données brutes 'kc-house-data.csv'. Construisez un modèle de régression linéaire en utilisant les variables suivantes.
 
